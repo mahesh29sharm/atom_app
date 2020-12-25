@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginScreen">
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_margin="20dp"
+        android:gravity="center"
+        >
+        <ImageView
+            android:layout_width="350dp"
+            android:layout_height="350dp"
+            android:src="@drawable/meditation"
+            />
+        <TextView
+            style="@style/wrap_content"
+            android:text="Make meditation a habit you love"
+            android:gravity="center"
+            android:textSize="35sp"
+            android:textColor="@color/lightGrey"
+            android:fontFamily="@font/roboto_bold"
+            android:layout_marginTop="-20dp"
+
+            />
+        <LinearLayout
+           style="@style/width_match_parent"
+            android:orientation="vertical"
+            android:layout_margin="20dp">
+
+            <Button
+                android:id="@+id/google_sign_in"
+                style="@style/button"
+                android:text="Sign in with Google"
+                android:layout_marginBottom="10dp"
+
+                />
+            <Button
+                android:id="@+id/guest_sign_in"
+                style="@style/button"
+                android:text="Sign in as Guest"
+            />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            android:orientation="vertical"
+            android:gravity="center"
+            >
+            <ProgressBar
+                android:id="@+id/progress_bar"
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:layout_gravity="center"
+                android:visibility="gone"
+                />
+        <TextView
+            style="@style/content"
+            android:text="By creating an account on atom you agree to our"
+            android:textSize="15sp"
+
+            />
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/terms"
+                style="@style/small_text"
+                android:text="terms"
+                android:background="@drawable/bottom_line"
+
+                />
+            <TextView
+                style="@style/small_text"
+                android:text=" and "
+                />
+            <TextView
+                android:id="@+id/privacy"
+                style="@style/small_text"
+                android:text="condition"
+                android:background="@drawable/bottom_line"
+
+                />
+
+
+        </LinearLayout>
+        </LinearLayout>
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+</ScrollView>

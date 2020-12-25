@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:gravity="center">
+
+    <LinearLayout
+        style="@style/width_match_parent"
+        android:orientation="vertical"
+        android:layout_margin="20dp"
+        android:gravity="center_horizontal">
+
+        <ImageView
+            android:layout_width="250dp"
+            android:layout_height="250dp"
+            android:src="@drawable/mindful" />
+
+        <TextView
+            android:id="@+id/name"
+            style="@style/large_text"
+            android:text="Welcome, Ramesh"
+            android:textColor="@color/ultralightGrey"
+            android:gravity="center_horizontal"
+
+            />
+
+        <TextView
+            style="@style/large_text"
+            android:text="A more mindful you"
+            android:textSize="30sp"
+            android:layout_marginTop="25dp"
+
+            />
+        <TextView
+            style="@style/content"
+            android:text="Building your meditation habit"
+            android:textColor="@color/ultralightGrey"
+
+
+
+            />
+        <Button
+            android:id="@+id/sign_out"
+            style="@style/button"
+            android:text="Sign Out"
+            android:layout_margin="25dp"
+            />
+    </LinearLayout>
+</androidx.appcompat.widget.LinearLayoutCompat>

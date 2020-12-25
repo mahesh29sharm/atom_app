@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "442384540270",
+    "project_id": "atom-6c518",
+    "storage_bucket": "atom-6c518.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:442384540270:android:ed6aa7edb5248e920f7c7f",
+        "android_client_info": {
+          "package_name": "app.atom"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "442384540270-v63919p5rd4davj0cocemnar3knr47e3.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "app.atom",
+            "certificate_hash": "fd4b9876ebe50904a799d3f38ce062680d244f88"
+          }
+        },
+        {
+          "client_id": "442384540270-cdrf1jtm63qmsp4jq6fuusn9qp6ugb61.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAmnz62H-2d85hTcXKdIpMgbEg8T3s24Ok"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "442384540270-cdrf1jtm63qmsp4jq6fuusn9qp6ugb61.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

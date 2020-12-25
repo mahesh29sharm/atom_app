@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".NameScreen">
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="20dp"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        tools:layout_editor_absoluteX="20dp">
+
+        <ImageView
+            style="@style/wrap_content"
+            android:layout_gravity="start"
+            android:src="@drawable/back" />
+
+        <LinearLayout
+            style="@style/width_match_parent"
+            android:layout_margin="25dp"
+            android:orientation="vertical">
+            <TextView
+                style="@style/large_text"
+                android:layout_gravity="start"
+                android:layout_marginBottom="25dp"
+                android:layout_marginTop="25dp"
+                android:gravity="start"
+                android:text="Hi, what do your friends \ncall you?"
+                android:textSize="25sp"
+
+                />
+            <EditText
+                android:id="@+id/user_name"
+                style="@style/content"
+                android:layout_width="match_parent"
+                android:layout_marginTop="25dp"
+                android:background="@drawable/bottom_line"
+                android:fontFamily="@font/roboto_bold"
+                android:hint="Enter Your Name"
+                android:paddingBottom="10dp"
+                android:textColorHint="@color/ultralightGrey" />
+
+            <Button
+                android:id="@+id/next"
+                style="@style/button"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="100dp"
+                android:text="Continue" />
+
+
+
+
+        </LinearLayout>
+
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+</androidx.constraintlayout.widget.ConstraintLayout>
